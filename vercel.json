@@ -2,7 +2,6 @@
     "version":2,
     "public": true,
     "build":{
-        "use":"@vercel/node"
     },
     "routes":[
         {
