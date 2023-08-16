@@ -2,10 +2,12 @@
     "version":2,
     "public": true,
     "build":{
+        "src": "app.js",
+        "use":"@now/node"
     },
     "routes":[
         {
-        "src":"(.*)",
+        "src":"/(.*)",
         "dest": "app.js"
         }
     ]
