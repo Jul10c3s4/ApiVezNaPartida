@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const admin = require("./routes/admin")
+const admin = require("../routes/admin")
 
 //Conexão com o mongo
 const mongoose= require("mongoose")
