@@ -2,11 +2,13 @@
     "version":2,
     "public": true,
     "build":{
-        "src": "api/app.js",
+        "src": "app.js",
         "use":"@vercel/node"
     },
-    "routes":{
-        "src":"/(.*)",
-        "dest": "api/app.js"
-    }
+    "routes":[
+        {
+        "src":"(.*)",
+        "dest": "app.js"
+        }
+    ]
 }
